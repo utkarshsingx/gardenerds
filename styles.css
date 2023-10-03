@@ -136,6 +136,10 @@ body {
   background-color: black;
 }
 
+#rtop:hover::before {
+  transform: translate(0, -50%) scale(1.5); /* Scale the element on hover */
+}
+
 #icons {
   padding: 20px;
   display: flex;
